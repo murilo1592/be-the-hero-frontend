@@ -8,7 +8,7 @@ import logoImg from '../../assets/logo.svg';
 
 function Register() {
     return (
-        < div className="register-container">
+        <div className="register-container">
             <div className="content">
                 <section>
                     <img src={logoImg} alt="Be the hero" />
@@ -35,7 +35,7 @@ function Register() {
                     <button className="button" type="submit">Cadastrar</button>
                 </form>
             </div>
-        </div>
+            </div>
     );
 }
 

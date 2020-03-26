@@ -11,11 +11,10 @@ function Routes(){
             <Switch>
                 <Route path="/" exact component={Logon} />
                 <Route path="/register" component={Register} />
-                
                 <Route path="/profiler" component={Profiler} />
             </Switch>
         </BrowserRouter>
-    )
+    );
 }
 
 export default Routes;

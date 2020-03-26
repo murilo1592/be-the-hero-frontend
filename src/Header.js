@@ -1,10 +1,8 @@
 import React from 'react';
 
-function Header({children}) {
+function Header() {
     return (
-        <header>
-            <h1>{children}</h1>
-        </header>
+        <h1>Header</h1>
     );
 }
 
