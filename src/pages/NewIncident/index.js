@@ -17,6 +17,10 @@ function NewIncident() {
 
     const ongId = localStorage.getItem('ongId');
 
+    if (ongId == null) {
+        history.push('/');
+    }
+
     async function hendleNewIncident(e) {
         e.preventDefault();
 

@@ -16,6 +16,10 @@ function Profile() {
     const ongName = localStorage.getItem('ongName');
     const ongId = localStorage.getItem('ongId');
 
+    if (ongId == null){
+        history.push('/');
+    }
+
     useEffect(() => {
         api.get('profile', {
             headers: {
